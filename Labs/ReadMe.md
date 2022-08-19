@@ -67,6 +67,10 @@ Advanced | 300+ | You have lots of experience and are looking to learn about adv
 - [Adaptive Application Control](./Modules/Module-8-Advance-Cloud-Defense.md#exercise-2-adaptive-application-control)
 - [File Integrity Monitoring](./Modules/Module-8-Advance-Cloud-Defense.md#exercise-3-file-integrity-monitoring)
 
+[**Module 9 - xyz**]
+
+More changes, xyz
+
 ## Acronyms
 
 Acronym | Meaning | Description
