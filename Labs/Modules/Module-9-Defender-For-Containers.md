@@ -4,6 +4,7 @@
 
 #### 🎓 Level: 300 (Advanced)
 #### ⌛ Estimated time to complete this lab: 60 minutes
+--- WORK IN PROGRESS ---
 
 ## Objectives
 This exercise guides you on how to validate and use Defender for Containers.
