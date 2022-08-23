@@ -24,8 +24,9 @@ First you need to create an AWS account project.
 2. Navigate to **Defender for Cloud**, then go to **Environment settings**.
 3. Select **Add environment**, then choose **Amazon Web Services**.
 4. Connecting an AWS account to an Azure subscription.
-5. Enter the details of the AWS account, including the location where you'll store the connector resource.
+5. Enter the details of the AWS account, including the location where you'll store the connector resource. Select the *Single account* option.
  ![Add AWS account](../Images/add-aws-account.png?raw=true)
+ >You can identify your *AWS account id* by clicking on your account name in the top right corner of the AWS console.
 6. Select **Next: Select plans**.
 
 The CSPM plan is enabled by default.
@@ -37,19 +38,19 @@ The CSPM plan is enabled by default.
 10. Click **Download the CloudFormation template**.
 11. After the CloudFormation template has been downloaded, then you'll see a Service Principal secret which has been generated. Copy it and keep it somewhere safe as you'll be needing it later.
  ![Service Principal Secret](../Images/aws-service-principal-secret.png?raw=true)
-11. Login to your AWS account at [AWS portal](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email) .
-12. Search for **create stack** and select **cloud formation**.
+12. Login to your AWS account at [AWS portal](https://portal.aws.amazon.com/billing/signup?refid=em_127222&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start/email) .
+13. Search for **create stack** and select **cloud formation**. Create a stack *With existing resources (import resources)* option.
  ![AWS stack of type cloud formation](../Images/aws-stack-cloud-formation.png?raw=true)
-12. Select **template is ready** 
+14. Select **template is ready** 
  ![AWS stack of type cloud formation](../Images/stack-template-aws.png?raw=true)
-13. Click **upload a template** and **choose file**. Here, input the downloaded CloudFormation template.
-14. Then give the stack a name, and also paste the Service Principal secret, which you copied earlier, in the ArcAutoProvisioningServicePrincipalSecret field.
-15. Leave everything else as default, and click **next**.
-16. Select **create stack**.
-17. Wait a few minutes for the stack to be successfully created in AWS.
-18. After the stack has been created, then go back to the other tab with the **Azure Portal**'s Microsoft Defender for Cloud experience.
-19. In Defender for Cloud, click **Next: Review and Generate**.
-14. Select **Create**.
+15. Click **upload a template** and **choose file**. Here, input the downloaded CloudFormation template.
+16. Then give the stack a name, and also paste the Service Principal secret, which you copied earlier, in the ArcAutoProvisioningServicePrincipalSecret field.
+17. Leave everything else as default, and click **next**.
+18. Select **create stack**.
+19. Wait a few minutes for the stack to be successfully created in AWS.
+20. After the stack has been created, then go back to the other tab with the **Azure Portal**'s Microsoft Defender for Cloud experience.
+21. In Defender for Cloud, click **Next: Review and Generate**.
+22. Select **Create**.
 
 Defender for Cloud will immediately start scanning your AWS resources and you'll see security recommendations in the Recommendations blade in Microsoft Defender for Cloud within a few hours. 
 
