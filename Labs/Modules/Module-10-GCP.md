@@ -12,7 +12,7 @@ This exercise guides you on how to connect and protect GCP projects using Defend
 
 First you need to create a GCP project. 
 
-1.	Navigate to [Create free GCP](https://www.google.com/aclk?sa=l&ai=DChcSEwiA7K7Gubn3AhUJuu0KHbACBZkYABAAGgJkZw&sig=AOD64_0Cc0zndLvPEu7wV4blEFwWvjOWag&q&adurl&ved=2ahUKEwihk6nGubn3AhVFZcAKHWP5BYkQ0Qx6BAgDEAE)  
+1.	Navigate to [Create free GCP](https://cloud.google.com/free)  
 ![Docker Version in Powershell](../Images/1gcpintro.png?raw=true)
 2.  Click **Get started for free**.
 3.  Now select either an existing Google account or create a new one. 
@@ -42,9 +42,9 @@ In order to be able to protect your GCP resources in Microsoft Defender for Clou
 
 **Location**: Select the location nearest you.
 
-**GCP project number**: Paste this from exercise 1, or alternatively go to [Google Cloud Console](console.cloud.google.com) and copy the project number from the dashboard.
+**GCP project number**: Paste this from exercise 1, or alternatively go to [Google Cloud Console](https://console.cloud.google.com/) and copy the project number from the dashboard.
 
-**GCP project id**: Paste this from exercise 1, or alternatively go to [Google Cloud Console](console.cloud.google.com) and copy the project ID from the dashboard.
+**GCP project id**: Paste this from exercise 1, or alternatively go to [Google Cloud Console](https://console.cloud.google.com/) and copy the project ID from the dashboard.
 
 ![Create GCP connector](../Images/4creategcpconnector.png?raw=true)
 
@@ -63,9 +63,9 @@ Containers
 10. Paste the script into the Cloud Shell.
 
 ![GCP console with Cloud Shell](../Images/7gcpconsole.png?raw=true)
-11. let the script run and when it finishes, copy the Service account unique numeric ID.
+11. Let the script run and when it finishes, copy the Service account unique numeric ID.
 
-12. Back in the **Configure access** page in **Defender for Cloud**, have the follwing as:
+12. Back in the **Configure access** page in **Defender for Cloud**, have the following as:
 
 **Security posture management**: leave as default
 
