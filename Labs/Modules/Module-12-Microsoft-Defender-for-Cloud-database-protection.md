@@ -33,22 +33,16 @@ Now all your existing and upcoming Azure SQL servers on machines in this subscri
 
 #### Create a SQL Server on a Windows Virtual Machine
 
-First you need to download an ARM template for a SQL server on a Windows VM. 
+First, download an ARM template for a SQL server on a Windows VM. 
 1.	To deploy, click on the blue **Deploy to Azure** button below:
 <br><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.sqlvirtualmachine%2Fsql-vm-new-storage%2Fazuredeploy.json " target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a></br>
-You can also deploy following instructions [here.](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-portal-quickstart?view=azuresql&tabs=conventional-vm).
+You can also deploy following instructions [here](https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-portal-quickstart?view=azuresql&tabs=conventional-vm).
 2. Click **Deploy to Azure**.
-
 3. Fill in all the necessary fields.
-
 > Note: please have desired virtual network, vnet resource group and existing subnet ready to input
-
 ![SQLVMtemplate](../Images/module12_sqlvmtemplate_yl.png)
-
 4. Click **Review and Create** and then when it's ready, click **Create**.
-
 5. Once created, make sure **Defender for SQL on machines** plan is enabled.
-
 6. Navigate to the virtual machine. Click on **Extensions + applications**. Notice three extensions: `AzureMonitorWindowsAgent`, `MicrosoftDefenderforSQL` and `SqlIaasExtension`. 
 
 #### Validate alerts for Defender for SQL for servers on machines
@@ -123,12 +117,12 @@ Defender for Cloud protects PostgreSQL, MySQL flexible servers and MariaDB.
 3.	Click on **Inventory** and search for your Azure Maria DB resource. 
 4.	**Recommendations** and **Security incidents and alerts** should be available, if applicable.
 ### Exercise 4: Explore Defender for Azure Cosmos DB 
-First use the ARM template to create an Azure Cosmos DB or follow the instructions [here](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal). 
+First, use the ARM template to create an Azure Cosmos DB or follow the instructions [here](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal). 
 1.	To deploy, click on the blue **Deploy to Azure** button below:
 <br><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.documentdb%2Fcosmosdb-sql-autoscale%2Fazuredeploy.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a></br>
-3.  Click **Deploy to Azure**.
-4.  Fill in all the necessary fields.
-5.  Click **Review and Create** and then when it's ready, click **Create**.
+2.  Click **Deploy to Azure**.
+3.  Fill in all the necessary fields.
+4.  Click **Review and Create** and then when it's ready, click **Create**.
 #### Enable database protection on your CosmosDB
 1. Sign in to the **Azure portal**.
 2. Navigate to **Microsoft Defender for Cloud**, then **Environment settings**.
