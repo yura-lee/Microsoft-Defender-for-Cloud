@@ -1,19 +1,18 @@
 # Module 12 - Microsoft Defender for Cloud database protection
-
 <p align="left"><img src="../Images/asc-labs-advanced.gif?raw=true"></p>
 
-## 🎓 Level: 300 (Intermediate)
-#### ⌛ Estimated time to complete this lab: 60 minutes
+### 🎓 Level: 300 (Intermediate)
+### ⌛ Estimated time to complete this lab: 60 minutes
 
 ## Objectives
 This exercise guides you MDC's database protection plans. Database protection in Defender for Cloud contains four flavors, dependong on which database type you are looking to protect. 
 
 1. Defender for SQL PaaS (SQL on Azure VM)
-<br> Vulnerability assessment and threat protection is available for this plan. Read more about it [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction).</br>
+<br>Vulnerability assessment and threat protection is available for this plan. Read more about it [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction).</br>
 2. Defender for SQL on machines (SQL servers hosted on premise, in Azure, AWS or GCP)
 <br>For this plan, Azure Monitoring Agent (AMA) is required, in place of Microsoft Monitoring Agent (MMA). Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-usage). Vulnerability assessment and detecting anomalous activities are available to protect your Iaas SQL Servers.
 3. Defender for Open-source relational database
-<br> Protect your PostgreSQL, MySQL and MariaDB resources by detecting anomalous activities. Read more about these security alerts [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-introduction).
+<br> Protect your PostgreSQL, MySQL and MariaDB resources by detecting anomalous activities. Read more about these security alerts [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-introduction).</br>
 4. Defender for Cosmos DB (NoSQL)
 <br>Detect potential threats against Cosmos DB accounts like SQL injection, compromised identities or potential exploitation. Read more about CosmosDB protection [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-defender-for-cosmos).</br>
 
@@ -126,7 +125,7 @@ Defender for Cloud protects PostgreSQL, MySQL flexible servers and MariaDB.
 ### Exercise 4: Explore Defender for Azure Cosmos DB 
 First use the ARM template to create an Azure Cosmos DB or follow the instructions [here](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal). 
 1.	To deploy, click on the blue **Deploy to Azure** button below:
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.documentdb%2Fcosmosdb-sql-autoscale%2Fazuredeploy.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
+<br><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.documentdb%2Fcosmosdb-sql-autoscale%2Fazuredeploy.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a></br>
 3.  Click **Deploy to Azure**.
 4.  Fill in all the necessary fields.
 5.  Click **Review and Create** and then when it's ready, click **Create**.
