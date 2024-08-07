@@ -10,7 +10,7 @@
 
 This exercise guides you MDC's database protection plans. Database protection in Defender for Cloud contains four flavors, dependong on which database type you are looking to protect.
 
-1. Defender for SQL Paas (SQL on Azure VM)
+1. Defender for SQL PaaS (SQL on Azure VM)
 Vulnerability assessment and threat protection is available for this plan. Read more about it [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction).
 2. Defender for SQL on machines (SQL servers hosted on premise, in Azure, AWS or GCP)
 For this plan, Azure Monitoring Agent (AMA) is required, in place of Microsoft Monitoring Agent (MMA). Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-usage). Vulnerability assessment and detecting anomalous activities are available to protect your Iaas SQL Servers.
@@ -89,7 +89,7 @@ To validate alerts for Defender for SQL Servers on machines:
 7. Locate and click on **Vulnerability assessment** under **Findings**.
 8. See option to **Add all results as baseline** or **Remove all from baseline**.
 ![SQL VA Baseline](../Images/12sqlbaseline_yl.png)
-Vulernerability assessment findings come from a knowledge base of best practices built in scanning service in Azure SQL database. It will flag any deviations from best practices like misconfigurations. Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/sql-azure-vulnerability-assessment-overview). Remediate any findings or accept as is.
+Vulernerability assessment findings come from a knowledge base of best practices built-in scanning service in Azure SQL database. It will flag any deviations from best practices like misconfigurations. Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/sql-azure-vulnerability-assessment-overview). Remediate any findings or accept as is.
 
 ### Exercise 2: Enable and protect your Azure SQL Databases using Microsoft Defender for Azure SQL Databases
 
@@ -116,7 +116,7 @@ This part of the exercise will leverage "asclab-db".
 3. Click on **Microsoft Defender for Cloud** under **Security**.
 4. **Recommendations** and **Vulnerability assessment findings** should be available.
 ![Azure SQL Database findings](../Images/12sqldatabaseRecsVAFindings-yl.png)
-5. Vulernerability assessment findings come from a knowledge base of best practices built in scanning service in Azure SQL database. It will flag any deviations from best practices like misconfigurations. Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/sql-azure-vulnerability-assessment-overview). Remediate any findings or accept as is.
+5. Vulernerability assessment findings come from a knowledge base of best practices built-in scanning service in Azure SQL database. It will flag any deviations from best practices like misconfigurations. Read more about this [here](https://learn.microsoft.com/en-us/azure/defender-for-cloud/sql-azure-vulnerability-assessment-overview). Remediate any findings or accept as is.
 
 ### Exercise 3: Enable and protect your OSS RDBs using Microsoft Defender for Open-source relational databases
 
